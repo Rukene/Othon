@@ -73,7 +73,6 @@ async def main():
                 await message.channel.send('Jus de pute !')
             if message.content.startswith("C'EST L'ANNIVERSAIRE"):
                 print('Message envoyé')
-                print('Test Github Push')
                 await message.channel.send('JUS DE PUTE !')
 
         @bot.command(name='appsync')
